@@ -13,10 +13,10 @@ window.addEventListener('load', adjustHeaderBarClasses);
 
 // Rotate through our subdivision signs for the header image
 const HEADER_IMAGES = [
-    'images/subdivision-sign-wyndham-forest.png',
+    'images/subdivision-sign-wyndham-forest-2.png',
     'images/subdivision-sign-chappell-ridge.png',
     'images/subdivision-sign-rivers-edge.png',
-    'images/subdivision-sign-holloway.png',
+    'images/subdivision-sign-holloway-2.png',
 ];
 let headerImagePointer = -1;
 
