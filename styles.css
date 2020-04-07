@@ -25,6 +25,12 @@ a:after {
 a:hover:after {
     transform: scaleX(1);
 }
+.quote {
+    margin-left: 20px;
+    border-left: 4px solid #BBB;
+    padding-left: 5px;
+    color: #444;
+}
 #page-contents {
     margin-left: 5%;
     margin-right: 5%;
