@@ -37,3 +37,15 @@ function copyLink(divId) {
         console.error('copyLink: Error Copying', err);
       }
 }
+
+// function addCopyIcon(id){
+//     var copySpan = document.createElement("span");
+//     copySpan.innerHTML="<img src=\"images/copy-12x14.png\" style=\"cursor: pointer;\" onclick=\"copyLink('Sedona')\" title=\"copy\">";
+//     copySpan.id=id+"CopySpan";
+//     document.getElementById("div"+id).appendChild(copySpan);
+// }
+
+// function removeCopyIcon(id){
+//    copySpan = document.getElementById(id+"CopySpan");
+//    copySpan.remove()
+// }
