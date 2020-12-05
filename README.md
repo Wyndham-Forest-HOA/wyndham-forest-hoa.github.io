@@ -8,4 +8,4 @@ serve several purposes:
 * A marketing tool to encourage people to buy homes in our neighborhood.
 * A resource for surrounding neighborhoods to use to contact our neighborhood leaders.
 
-If you'd like to contribute, see our [Contributing Guide|CONTRIBUTING.md].
+If you'd like to contribute, see our [Contributing Guide](CONTRIBUTING.md).
