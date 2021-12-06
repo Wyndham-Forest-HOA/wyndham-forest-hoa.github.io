@@ -164,6 +164,9 @@ a:hover:after {
 .contact-img {
     height: 25px;
 }
+.img-text {
+    height: 19px;
+}
 .photo-frame {
     border: 2px solid #999;
     box-shadow: 0 0 5px rgba(68, 68, 68, 0.6);
