@@ -22,14 +22,14 @@
   <meta property="og:image:height" content="1080" />
   <meta property="og:type" content="website" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/images/site.webmanifest">
-  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="images/favicon.ico">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="msapplication-config" content="images/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="styles.css">
@@ -171,11 +171,11 @@
       </p>
       <div id="amenities" class="anchor"></div>
       <div class="header">Amenities</div>
-      <!-- Not including clubhouse b/c its not owned by the HOA yet
+      <p>Our HOA contains over 60 acres of common areas containing soccer fields, playgrounds, badminton and volleyball courts, river access, and more.</p>
       <div class="sub-header">The Hollow Clubhouse</div>
-      <p>10842 Holman Ridge Rd. A 2300 sq ft clubhouse with outdoor bar and fireplace that can hold up to 311 people.</p>
-      -->
-      <p>Our HOA contains over 60 acres of common areas containing soccer fields, playgrounds, and more.</p>
+      <p>Located at 9786 Holman Ridge Rd, the Hollow Clubhouse is a 2300 sq ft clubhouse with outdoor bar and fireplace that can hold up to 311 people. To reserve the clubhouse, contact <a href="javascript:goto('management');">our HOA management company</a>.</p>
+      <div class="sub-header">Jocie's Place</div>
+      <p>Jocie's Place is a treehouse playground located in the 10900 block of Holman Ridge Rd.</p>
       <div class="sub-header">Cardinals Landing Playground</div>
       <p>Cardinals Landing is a playground located near the corner of Holman Ridge Rd and Bennett Ln.</p>
       <div class="photo-frame" style="width: 400px">
@@ -194,35 +194,68 @@
         The business and affairs of the HOA are controlled by a Board of Directors, consisting of
         5 members.
       </p>
-      <div id="board-members" style="padding-left: 20px">
-        <div class="contact-name">
-          <img src="images/contacts-jagan-name-president.png" style="height: 19px">
-        </div>
-        <div class="contact-name">
-          <img src="images/contacts-sameet-name-vp.png" style="height: 19px">
-        </div>
-        <div class="contact-name">
-          <img src="images/contacts-rumil-name-treasurer.png" style="height: 19px">
-        </div>
-        <div class="contact-name">
-          <img src="images/contacts-henderson-name-secretary.png" style="height: 19px">
-        </div>
-        <div class="contact-name">
-          <img src="images/contacts-bill-name.png" style="height: 19px">
+
+      <div style="display: flex; padding-left: 20px; padding-right: 30%; align-items: center; color: #333">
+        <div style="padding-right: 10px"><i class="material-icons">notification_important</i></div>
+        <div>
+          The day-to-day operations of our HOA is handled by our management company. Most issues
+          with day-to-day operations can be more quickly resolved by contacting
+          <a href="javascript:goto('management');">our HOA management company.</a>
         </div>
       </div>
-      <p style="color: blue">For all homeowner related queries,
-        please reach out to our HOA management company, myStreet.</p>
-      <div class="contact">
-        <div class="contact-details">
-          <i class="material-icons">email</i> <img src="images/contacts-mia-email.png" style="height: 25px">
+      <div id="board-members">
+        <div class="row">
+          <div class="contact col">
+            <div class="contact-name"><img src="images/contacts-kim-name-president.png" class="img-text"></div>
+            <div class="contact-details">
+              <div><i class="material-icons">home</i> <img src="images/contacts-kim-address.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-president-email.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-board2-email.png" class="img-text"></div>
+            </div>
+          </div>
+          <div class="contact col">
+            <div class="contact-name"><img src="images/contacts-matt-name-vp.png" class="img-text"></div>
+            <div class="contact-details">
+              <div><i class="material-icons">home</i> <img src="images/contacts-matt-address.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-vp-email.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-board2-email.png" class="img-text"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact col">
+            <div class="contact-name"><img src="images/contacts-elliot-name-treasurer.png" class="img-text"></div>
+            <div class="contact-details">
+              <div><i class="material-icons">home</i> <img src="images/contacts-elliot-address.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-treasurer-email.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-board3-email.png" class="img-text"></div>
+            </div>
+          </div>
+          <div class="contact col">
+            <div class="contact-name"><img src="images/contacts-henderson-name-secretary.png" class="img-text"></div>
+            <div class="contact-details">
+              <div><i class="material-icons">home</i> <img src="images/contacts-henderson-address.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-secretary-email.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-board1-email.png" class="img-text"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="flex-grow: 1"></div>
+          <div class="contact col">
+            <div class="contact-name"><img src="images/contacts-bill-name.png" class="img-text"></div>
+            <div class="contact-details">
+              <div><i class="material-icons">home</i> <img src="images/contacts-bill-address.png" class="img-text"></div>
+              <div><i class="material-icons">email</i> <img src="images/contacts-board5-email.png" class="img-text"></div>
+            </div>
+          </div>
+          <div style="flex-grow: 1"></div>
         </div>
       </div>
-      <p style="color: blue">For only HOA board related queries,
-        please reach out to the Wyndham Forest HOA board.</p>
+      <p style="margin-bottom: 0">All board members can be reached using the following email address:</p>
       <div class="contact">
         <div class="contact-details">
-          <i class="material-icons">email</i> <img src="images/contacts-urwfhoaboard-email.png" style="height: 25px">
+          <div><i class="material-icons">email</i> <img src="images/contacts-board-email.png" class="img-text"></div>
         </div>
       </div>
       <div id="committees" class="anchor"></div>
@@ -252,10 +285,9 @@
       <div id="modifications-committee" class="anchor"></div>
       <div class="sub-header">Modifications Committee (MC)</div>
       <div class="contact">
-        <div class="contact-name"><img src="images/contacts-kim-name-chair.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-kim-name-chair.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-mod-email.png" style="height: 25px"></div>
-          <div><i class="material-icons">phone</i> <img src="images/contacts-kim-phone.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-mod-email.png" class="img-text"></div>
         </div>
       </div>
       <p style="margin-block-start: 0">The powers of the modifications committee are defined in Article XII (<span style="font-style: italic">Architectual Standards</span>),
@@ -273,32 +305,32 @@
       <div class="sub-header">Social Media Committee</div>
       <div class="contact">
 
-        <div class="contact-name"><img src="images/contacts-jasmine-name-chair.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-jasmine-name-chair.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-socialmedia-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-socialmedia-email.png" class="img-text"></div>
         </div>
       </div>
       <div class="sub-header">Recreation Committee</div>
       <div class="contact">
-        <div class="contact-name"><img src="images/contacts-limba-name-chair.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-limba-name-chair.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-recreation-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-recreation-email.png" class="img-text"></div>
         </div>
       </div>
       <div class="sub-header">Nominating Committee</div>
       <div class="contact">
         <!-- Including Jagan, instead of Ramkumar (Neighborhood Watch Committee Chair), b/c we don't have Ramkumar's email address. -->
-        <div class="contact-name"><img src="images/contacts-jagan-name.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-jagan-name.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-nominating-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-nominating-email.png" class="img-text"></div>
         </div>
       </div>
       <div class="sub-header">Neighborhood Watch Committee</div>
       <div class="contact">
         <!-- Including Henderson, instead of Satya (Neighborhood Watch Committee Chair), b/c we don't have Satya's email address. -->
-        <div class="contact-name"><img src="images/contacts-henderson-name.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-henderson-name.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-neighborhood-watch-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-neighborhood-watch-email.png" class="img-text"></div>
         </div>
       </div>
 
@@ -314,9 +346,9 @@ Vikas Vijay <br>
         <!-- Including Marco, instead of Ganesh (Grounds Committee Chair), b/c we don't have Ganesh's email address. -->
         <!-- We still don't have Ganesh's email, but Limba wants to go ahead and put his name here, even though
              the emails will go to Marco. -->
-        <div class="contact-name"><img src="images/contacts-ganesh-name.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-ganesh-name-chair.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-grounds-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-grounds-email.png" class="img-text"></div>
         </div>
       </div>
       <p style="margin-block-start: 0">
@@ -327,16 +359,16 @@ Vikas Vijay <br>
       <div class="sub-header">Advisory Committee</div>
       <div class="contact">
         <!-- Including Henderson, instead of Nikhil (Advisory Committee Chair), b/c we don't have Nikhil's email address. -->
-        <div class="contact-name"><img src="images/contacts-henderson-name.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-henderson-name.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-advisory-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-advisory-email.png" class="img-text"></div>
         </div>
       </div>
       <div class="sub-header">Finance Committee</div>
       <div class="contact">
-        <div class="contact-name"><img src="images/contacts-rumil-name-chair.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-rumil-name-chair.png" class="img-text"></div>
         <div class="contact-details">
-          <div><i class="material-icons">email</i> <img src="images/contacts-committees-finance-email.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-committees-finance-email.png" class="img-text"></div>
         </div>
       </div>
       <div id="services" class="anchor"></div>
@@ -350,11 +382,11 @@ Vikas Vijay <br>
         community. MyStreet's customer care department can be reached at <a href="mailto:info@mystreetva.com">info@mystreetva.com</a> or
         <a href="tel:804-359-2895">804-359-2895</a>. Below are the contacts specific to our community:</p>
       <div class="contact">
-        <div class="contact-name"><img src="images/contacts-mia-name.png" style="height: 19px"></div>
+        <div class="contact-name"><img src="images/contacts-mia-name.png" class="img-text"></div>
         <div class="contact-details">
           <div>Wyndham Forest Representative</div>
-          <div><i class="material-icons">email</i> <img src="images/contacts-mia-email.png" style="height: 25px"></div>
-          <div><i class="material-icons">phone</i> <img src="images/contacts-mia-phone.png" style="height: 25px"></div>
+          <div><i class="material-icons">email</i> <img src="images/contacts-mia-email.png" class="img-text"></div>
+          <div><i class="material-icons">phone</i> <img src="images/contacts-mia-phone.png" class="img-text"></div>
         </div>
       </div>
       <div id="curbside-trash-pickup" class="anchor"></div>
